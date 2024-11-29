@@ -66,7 +66,7 @@ public class Main {
                 }
             }
             int dateFri = 5;
-            while (dateFri <= 31) {
+            while (dateFri < 31) {
                 System.out.println("Сегодня пятница, " + dateFri + "-е число. Необходимо подготовить отчет».");
                 dateFri += 7;
             }
